@@ -1,0 +1,9 @@
+[DEBUG] Error
+[INFO] Error 2
+[WARNING] Error 3
+[ERROR] Error 4
+[CRITICAL] Error 5
+[ERROR] No se encuentra archivo (Archivo: Log.cpp, Línea: 93)
+[SECURITY] Access Granted (Usuario: Bere)
+[SECURITY] Access Denied (Usuario: Gallina)
+[ERROR] Rompiste el programa (Archivo: Log.cpp, Línea: 68)
