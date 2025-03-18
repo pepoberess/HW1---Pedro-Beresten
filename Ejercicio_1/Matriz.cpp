@@ -1,10 +1,4 @@
-#include <iostream>
-#include <vector>
-
-using namespace std;
-
-vector<vector<int>> generarMatriz(int n);
-void imprimirMatriz(const vector<vector<int>>& matriz);
+#include "Matriz.h"
 
 int main() {
     int n;

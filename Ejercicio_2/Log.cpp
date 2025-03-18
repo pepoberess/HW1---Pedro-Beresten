@@ -1,8 +1,4 @@
-#include <iostream>
-#include <fstream>
-#include <string>
-
-using namespace std;
+#include "Log.h"
 
 // Definimos los niveles de severidad como un enum
 enum class LogLevel {
@@ -81,7 +77,7 @@ int main() {
         return 1;
     }
     logFile.close();  // Cierra el archivo después de limpiarlo
-    
+
     // Prueba de la función con todos los niveles de severidad
     logMessage("Error", LogLevel::DEBUG);
     logMessage("Error 2", LogLevel::INFO);

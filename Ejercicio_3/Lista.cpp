@@ -1,7 +1,4 @@
-#include <iostream>
-#include <memory>
-
-using namespace std;
+#include "Lista.h"
 
 struct Node {
     int data;
