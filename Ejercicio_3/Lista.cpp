@@ -3,11 +3,13 @@
 struct Node {
     int data;
     unique_ptr<Node> next;
-    Node(int value) : data(value), next(nullptr) {}
 };
 
-unique_ptr<Node> create_node(int value) {
-    return make_unique<Node>(value);
+unique_ptr<Node> create_node(int value){
+    unique_ptr<Node> newNode = make_unique<Node>();
+    newNode->data = value;
+    newNode->next = nullptr;
+    return newNode;
 }
 
 void push_front(unique_ptr<Node>& head, int value) {
