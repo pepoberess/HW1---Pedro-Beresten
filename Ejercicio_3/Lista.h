@@ -1,5 +1,4 @@
-#ifndef LINKED_LIST_H
-#define LINKED_LIST_H
+#pragma once
 
 #include <iostream>
 #include <memory>
@@ -26,5 +25,3 @@ void print_list(const unique_ptr<Node>& head);
 
 // Eliminar un nodo en una posición específica
 void erase(unique_ptr<Node>& head, int position);
-
-#endif
