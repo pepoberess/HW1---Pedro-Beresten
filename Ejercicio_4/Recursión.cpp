@@ -34,7 +34,7 @@ void miProcesoAMedir() {
    
     const bool sonIdenticos = sonIguales(texto1, texto2);
 
-    std::cout << "Comparación 1: " << sonIdenticos << std::endl;
+    std::cout << "Comparación 1: " << (sonIdenticos? "iguales" : "distintos") << std::endl;
 }
 
 void miProcesoAMedir1() {
@@ -44,7 +44,7 @@ void miProcesoAMedir1() {
    
     constexpr bool sonIguales = comparar_rapido(texto1, texto2);
 
-    std::cout << "Comparación 1: " << sonIguales << std::endl;
+    std::cout << "Comparación 1: " << (sonIguales? "iguales" : "distintos") << std::endl;
 }
 
 int main(){
