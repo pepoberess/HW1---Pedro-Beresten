@@ -1,6 +1,9 @@
 #include "Lista.h"
 
-//Crei la estructura de mi nodo
+// En este ejercicio creo una lista simplemnente enlazada solo con la estructura del nodo.
+// Para desarrollarla utilizo smart pointers, en específico unique pointers.
+
+// Creo la estructura de mi nodo
 struct Node {
     int data;
     unique_ptr<Node> next;

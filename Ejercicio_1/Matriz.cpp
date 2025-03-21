@@ -1,5 +1,7 @@
 #include "Matriz.h"
 
+// Para hacer este ejercicio utilizo dos ciclos para primero crear la matriz y luego la imprimo inversamente con un solo for.
+
 vector<vector<int>> generarMatriz(int n) {
     vector<vector<int>> matriz(n, vector<int>(n)); // Crea una matriz n x n
     int valor = 1;

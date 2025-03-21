@@ -1,6 +1,10 @@
 #include "Recursión.h"
 
-bool sonIguales(const char* str1, const char* str2) {
+// En este último ejercicio utilizo chars para ser comparados en una función recursiva. Los chars son más fáciles de comparar que los strings ya que tienen una comparación directa por tanto me convienen para realizar mi función.
+// Luego mido el tiempo que tarda mi código en ejecución y en compilación.
+
+
+bool sonIguales(const char* str1, const char* str2) { 
         // Caso base: si ambos apuntan al final ('\0'), son iguales
         if (*str1 == '\0' && *str2 == '\0') return true;
     

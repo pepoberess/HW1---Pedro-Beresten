@@ -1,5 +1,8 @@
 #include "Log.h"
 
+// En este ejercicio enumero los niveles de severidad con un enum y luego asimilo un string a cada uno de ellos con la ayuda del switch.
+// Ya después imprimo los mensajes correspondientes en log.txt.
+
 // Los niveles de severidad con un enum
 enum class LogLevel {
     DEBUG,
